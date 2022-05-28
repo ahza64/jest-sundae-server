@@ -6,7 +6,7 @@ const app = express();
 
 // CORS for react app, assuming port 3000
 app.use(cors({
-  origin: 'https://jest-sundae.herokuapp.com/',
+  origin: 'https://jest-sundae.herokuapp.com',
   credentials: true
 }))
 
