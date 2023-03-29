@@ -25,6 +25,8 @@ app.use(cors({
   credentials: true
 }))
 
+app.use(cors())
+
 // use middleware to serve static images
 app.use(express.static('public'))
 
